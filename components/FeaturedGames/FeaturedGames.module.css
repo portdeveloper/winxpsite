@@ -1,0 +1,63 @@
+.featuredSection {
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  background: linear-gradient(90deg, #0054e3 0%, #0078d4 100%);
+  color: white;
+  padding: 6px 12px;
+  border: 2px outset #0078d4;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.featuredGamesContainer {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 8px 4px;
+  scrollbar-width: thin;
+  scrollbar-color: #c0c0c0 #f0f0f0;
+}
+
+.featuredGamesContainer::-webkit-scrollbar {
+  height: 16px;
+}
+
+.featuredGamesContainer::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border: 2px inset #d4d0c8;
+  border-radius: 2px;
+}
+
+.featuredGamesContainer::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #e0e0e0 0%, #c0c0c0 100%);
+  border: 1px outset #c0c0c0;
+  border-radius: 2px;
+}
+
+.featuredGamesContainer::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #e8e8e8 0%, #c8c8c8 100%);
+}
+
+.featuredGamesContainer::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(180deg, #c0c0c0 0%, #e0e0e0 100%);
+  border: 1px inset #c0c0c0;
+}
+
+.noFeaturedGames {
+  background: linear-gradient(180deg, #ffe9e9 0%, #ffdddd 100%);
+  border: 2px inset #d4d0c8;
+  padding: 16px;
+  text-align: center;
+  color: #666666;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 11px;
+  border-radius: 3px;
+  font-style: italic;
+}

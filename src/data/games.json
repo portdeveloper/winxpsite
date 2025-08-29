@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Retro Snake Game",
+    "description": "Classic snake game with Windows XP styling. Navigate the snake to collect food and grow longer without hitting the walls or yourself.",
+    "link": "https://example.com/snake-game",
+    "image": "/assets/solitaire.png",
+    "authorName": "John Doe",
+    "twitter": "https://twitter.com/johndoe",
+    "github": "https://github.com/johndoe/snake-game",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Pixel Tetris",
+    "description": "A nostalgic Tetris implementation with retro graphics and sound effects that will take you back to the golden age of gaming.",
+    "link": "https://example.com/tetris",
+    "image": "/assets/cmd.png",
+    "authorName": "Jane Smith",
+    "twitter": "https://twitter.com/janesmith",
+    "github": "https://github.com/janesmith/pixel-tetris",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Space Invaders XP",
+    "description": "Defend Earth from alien invasion in this Windows XP themed space shooter with classic arcade gameplay.",
+    "link": "https://example.com/space-invaders",
+    "image": "/assets/paint.png",
+    "authorName": "Mike Johnson",
+    "twitter": "https://twitter.com/mikejohnson",
+    "github": "https://github.com/mikejohnson/space-invaders-xp",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Minesweeper Classic",
+    "description": "The iconic Windows Minesweeper game recreated with authentic XP styling and gameplay mechanics.",
+    "link": "https://example.com/minesweeper",
+    "image": "/assets/mycomputer.png",
+    "authorName": "Sarah Wilson",
+    "twitter": "https://twitter.com/sarahwilson",
+    "github": "https://github.com/sarahwilson/minesweeper-classic",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Pong Championship",
+    "description": "Two-player Pong game with AI opponent and tournament mode. Perfect for quick gaming sessions.",
+    "link": "https://example.com/pong",
+    "image": "/assets/mediaplayer.png",
+    "authorName": "David Brown",
+    "twitter": "https://twitter.com/davidbrown",
+    "github": "https://github.com/davidbrown/pong-championship",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Breakout Deluxe",
+    "description": "Enhanced version of the classic Breakout game with power-ups, multiple levels, and stunning visual effects.",
+    "link": "https://example.com/breakout",
+    "image": "/assets/ie.png",
+    "authorName": "Lisa Davis",
+    "twitter": "https://twitter.com/lisadavis",
+    "github": "https://github.com/lisadavis/breakout-deluxe",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Pac-Man Retro",
+    "description": "The legendary maze game with authentic sounds, ghost AI, and multiple difficulty levels.",
+    "link": "https://example.com/pacman",
+    "image": "/assets/outlook.png",
+    "authorName": "Tom Anderson",
+    "twitter": "https://twitter.com/tomanderson",
+    "github": "https://github.com/tomanderson/pacman-retro",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "Memory Match",
+    "description": "Brain training memory game with various difficulty levels and Windows XP themed card designs.",
+    "link": "https://example.com/memory-match",
+    "image": "/assets/folder.png",
+    "authorName": "Emma Taylor",
+    "twitter": "https://twitter.com/emmataylor",
+    "github": "https://github.com/emmataylor/memory-match",
+    "featured": false
+  }
+]

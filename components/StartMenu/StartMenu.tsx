@@ -34,21 +34,6 @@ interface StartMenuProps {
 }
 
 const StartMenu = ({ menuControl }: StartMenuProps) => {
-  const handleOpenGitHub = () => {
-    window.open("https://github.com/firwer", "_blank", "noreferrer");
-  };
-
-  const handleOpenResume = () => {
-    window.open("./Resume.pdf", "_blank");
-  };
-
-  const handleOpenLinkedin = () => {
-    window.open(
-      "https://www.linkedin.com/in/poh-wei-pin-7b9061183/",
-      "_blank",
-      "noreferrer"
-    );
-  };
   //const currTabID = useSelector((state: RootState) => state.tab.id);
   const handleRunApp = (e: number) => {
     menuControl(false);
@@ -81,7 +66,7 @@ const StartMenu = ({ menuControl }: StartMenuProps) => {
             textShadow: "1px 1px #000000",
           }}
         >
-          Wei Pin&apos;s PC
+          Game Portal PC
         </p>
       </div>
       <hr className={styles.orangehr} />
@@ -89,43 +74,13 @@ const StartMenu = ({ menuControl }: StartMenuProps) => {
         <div className={styles.leftmenu}>
           <div>
             <StartMenuItem
-              title="Internet"
-              subtitle="Internet Explorer"
-              icon={ie}
-              type={1}
-            />
-            <StartMenuItem
-              onClick={() => handleRunApp(1)}
-              title="E-mail"
-              subtitle="Drop me a message!"
-              icon={outlook}
+              onClick={() => handleRunApp(0)}
+              title="Game Portal"
+              subtitle="Play retro games!"
+              icon={cmd}
               type={1}
             />
             <hr className={styles.greyhr} />
-            <StartMenuItem
-              onClick={handleOpenResume}
-              title="My Resume"
-              icon={pdf}
-              type={2}
-            />
-            <StartMenuItem
-              onClick={handleOpenGitHub}
-              title="My Github"
-              icon={github}
-              type={2}
-            />
-            <StartMenuItem
-              onClick={handleOpenLinkedin}
-              title="My Linkedin"
-              icon={linkedin}
-              type={2}
-            />
-            <StartMenuItem
-              title="My Work"
-              onClick={() => handleRunApp(2)}
-              icon={cmd}
-              type={2}
-            />
             <StartMenuItem title="Paint" icon={paint} type={2} />
           </div>
           <div>

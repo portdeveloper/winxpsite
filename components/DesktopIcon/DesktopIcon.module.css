@@ -2,7 +2,7 @@
   display: inline-block;
   position: absolute;
   width: 80px;
-  height: 80px;
+  height: 90px;
   background-color: transparent;
   cursor: pointer;
 }
@@ -35,13 +35,17 @@
   top: 48px;
   left: 0;
   right: 0;
-  height: 15px;
+  height: auto;
+  min-height: 30px;
   text-align: center;
   font-size: 12px;
   color: white;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: normal;
+  word-wrap: break-word;
+  line-height: 1.2;
+  padding: 2px;
 }
 
 .iconlabel_selected {
@@ -50,13 +54,17 @@
   top: 48px;
   left: 0;
   right: 0;
-  height: 15px;
+  height: auto;
+  min-height: 30px;
   text-align: center;
   font-size: 12px;
   color: white;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: normal;
+  word-wrap: break-word;
+  line-height: 1.2;
+  padding: 2px;
   background-color: rgb(11, 97, 255);
 }
 .icon_overlay {

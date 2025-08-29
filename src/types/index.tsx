@@ -25,47 +25,21 @@ export type RootState = {
 };
 
 export enum App {
-  MYWORK,
-  OUTLOOK,
-  MYDOCUMENT,
-  MYGALLERY,
-  MYBLOG,
+  GAMEPORTAL,
   ERROR,
   INFO,
   HELP,
   WARNING,
-  WELCOME,
 }
 
-export enum WorkType {
-  PERSONAL = "Personal Projects",
-  SCHOOL = "School Projects",
-  HACKATHON = "Hackathons",
-}
-
-export type WorkFile = {
+export type Game = {
   id: number;
-  type: WorkType;
-  icon: StaticImageData;
-  title: string;
-  content: WorkContent;
-};
-
-export type WorkContent = {
-  id: number;
-  title: string;
-  date: string;
-  gitURL: string;
-  gallery: StaticImageData[];
-  techstack: string[];
-  overview: string;
-};
-
-export type GalleryImage = {
-  id: number;
-  title: string;
-  desc: string;
-  location: string;
-  date: string;
-  img: StaticImageData;
+  name: string;
+  description: string;
+  link: string;
+  image: string;
+  authorName: string;
+  twitter: string;
+  github: string;
+  featured: boolean;
 };
